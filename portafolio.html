@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ángel Smith</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #0d0d2b;
+            color: #ffffff;
+        }
+
+        .highlight {
+            color: #a855f7;
+        }
+    </style>
+</head>
+
+<body class="text-white">
+
+    <!-- Navegador -->
+    <header class="fixed top-0 left-0 w-full bg-[#0d0d2b] z-10 shadow">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-xl font-bold">Vngerus</h1>
+            <nav class="flex space-x-6">
+                <a href="#about" class="hover:text-[#a855f7]">Sobre mí</a>
+                <a href="#projects" class="hover:text-[#a855f7]">Proyectos</a>
+                <a href="#contact" class="hover:text-[#a855f7]">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="about" class="h-screen flex items-center justify-center text-center">
+        <div>
+            <p class="text-lg">Hola, mi nombre es</p>
+            <h2 class="text-5xl font-bold highlight mb-4">Ángel Smith</h2>
+            <h3 class="text-3xl font-semibold mb-6">Desarrollador Front-End</h3>
+            <p class="text-gray-300 max-w-2xl mx-auto">
+                Si bien me especializo en el Front, también me gusta el desarrollo Back-End. Actualmente, me encuentro
+                realizando un curso intensivo de desarrollo en Flutter.
+            </p>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold highlight mb-8">Proyectos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Proyecto 1 -->
+                <div class="bg-[#1a1a40] rounded-lg shadow-lg overflow-hidden">
+                    <img src="/imgs/aluraencriptador.png" alt="Alura Encriptador" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Alura Encriptador</h3>
+                        <p class="text-gray-300 mb-4">
+                            Aplicación que permite encriptar y desencriptar texto para mantenerlo seguro. Ideal para
+                            compartir mensajes cifrados.
+                        </p>
+                        <p class="text-sm text-gray-400 mb-4">
+                            <strong>Tecnologías:</strong> HTML, CSS, JavaScript
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/vngerus/AluraEncriptador" target="_blank"
+                                class="flex items-center px-4 py-2 bg-[#282850] text-white rounded-lg hover:bg-[#3b3b66]">
+                                <i class="fab fa-github mr-2"></i> Ver repositorio
+                            </a>
+                            <a href="https://alura-encriptador-zeta.vercel.app" target="_blank"
+                                class="flex items-center px-4 py-2 bg-[#a855f7] text-white rounded-lg hover:bg-[#7e22ce]">
+                                <i class="fas fa-external-link-alt mr-2"></i> Ver en vivo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="bg-[#1a1a40] rounded-lg shadow-lg overflow-hidden">
+                    <img src="/imgs/alurageek.png" alt="Alura Geek" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Alura Geek</h3>
+                        <p class="text-gray-300 mb-4">
+                            Plataforma para agregar y visualizar productos y precios. Diseñada con un enfoque en
+                            e-commerce.
+                        </p>
+                        <p class="text-sm text-gray-400 mb-4">
+                            <strong>Tecnologías:</strong> React, Vite, TypeScript, Tailwind
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/vngerus/AluraGeek" target="_blank"
+                                class="flex items-center px-4 py-2 bg-[#282850] text-white rounded-lg hover:bg-[#3b3b66]">
+                                <i class="fab fa-github mr-2"></i> Ver repositorio
+                            </a>
+                            <a href="https://alurageek-miau.vercel.app" target="_blank"
+                                class="flex items-center px-4 py-2 bg-[#a855f7] text-white rounded-lg hover:bg-[#7e22ce]">
+                                <i class="fas fa-external-link-alt mr-2"></i> Ver en vivo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="bg-[#1a1a40] rounded-lg shadow-lg overflow-hidden">
+                    <img src="/imgs/aluraflix.png" alt="Alura Flix" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Alura Flix</h3>
+                        <p class="text-gray-300 mb-4">
+                            Aplicación que permite almacenar y gestionar contenido audiovisual enfocado en desarrollo y
+                            tecnología.
+                        </p>
+                        <p class="text-sm text-gray-400 mb-4">
+                            <strong>Tecnologías:</strong> React, Vite, TypeScript, Tailwind
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/vngerus/AluraFlix" target="_blank"
+                                class="flex items-center px-4 py-2 bg-[#282850] text-white rounded-lg hover:bg-[#3b3b66]">
+                                <i class="fab fa-github mr-2"></i> Ver repositorio
+                            </a>
+                            <a href="https://aluraflix-roan-eight.vercel.app" target="_blank"
+                                class="flex items-center px-4 py-2 bg-[#a855f7] text-white rounded-lg hover:bg-[#7e22ce]">
+                                <i class="fas fa-external-link-alt mr-2"></i> Ver en vivo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="py-6 bg-[#0d0d2b] text-center text-gray-400">
+        <p>Desarrollado por Ángel Smith. &copy; 2024</p>
+    </footer>
+
+</body>
+
+</html>
